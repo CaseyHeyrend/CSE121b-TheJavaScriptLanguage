@@ -1,15 +1,21 @@
 /* Lesson 4 */
-
+document.getElementById('elementId');
 /* DATA */
 
 // Step 1: Declare a new variable to hold information about yourself
-
+let myName = "Casey Heyrend";
 // Step 2: Inside of the object, add a property named name with a value of your name as a string
-
+const modifyName = document.querySelector("#name");
+modifyName.textContent = myName;
 // Step 3: Add another property named photo with a value of the image path and name (used in Task 2) as a string
-
+let myImage = "./images/CaseyHeyrend.jpeg";
+let myImageDes = "An image of myself."
+const modifyImage = document.querySelector("img");
+modifyImage.setAttribute("src", myImage), ("alt", myImageDes);
 // Step 4: Add another property named favoriteFoods with a value of an array of your favorite foods as strings ( hint: [] )
-
+var food = ["Pizza", "Noodles", "Cookies"]
+const modifyfood =document.querySelector("#food");
+modifyfood.textContent= (food[0] + ", " + food[1] + ", and " + food[2]);
 // Step 5: Add another property named hobbies with a value of an array of your hobbies as strings
 
 // Step 6: Add another property named placesLived with a value of an empty array
