@@ -14,18 +14,21 @@ const modifyImage = document.querySelector("img");
 modifyImage.setAttribute("src", myImage), ("alt", myImageDes);
 // Step 4: Add another property named favoriteFoods with a value of an array of your favorite foods as strings ( hint: [] )
 var food = ["Pizza", "Noodles", "Cookies"]
-const modifyfood =document.querySelector("#food");
+const modifyfood = document.querySelector("#favorite-foods");
 modifyfood.textContent= (food[0] + ", " + food[1] + ", and " + food[2]);
 // Step 5: Add another property named hobbies with a value of an array of your hobbies as strings
-
+var hobbies = ["Playing the Games", "The Internet", "Daydream"]
+const modifyhobbies = document.querySelector("#hobbies");
+modifyhobbies.textContent= (hobbies[0] + ", " + hobbies[1] + ", and " + hobbies[2]);
 // Step 6: Add another property named placesLived with a value of an empty array
+var places = ["Soda Springs", "Montpelier", "Rigby"]
 
 // Step 7: Inside of the empty array above, add a new object with two properties: place and length and values of an empty string
 
 // Step 8: For each property, add appropriate values as strings
-
+const modifyplaces = document.querySelector("#places-lived");
 // Step 9: Add additional objects with the same properties for each place you've lived
-
+modifyplaces.textContent= (places[0] + ", " + places[1] + ", and " + places[2]);
 
 /* OUTPUT */
 

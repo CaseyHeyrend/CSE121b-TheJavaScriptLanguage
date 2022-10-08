@@ -32,29 +32,17 @@ modifyImage.setAttribute("src", myImage), ("alt", myImageDes);
 
 // Step 1: declare and instantiate an array variable to hold your favorite foods
 var food = ["Pizza", "Noodles", "Cookies"]
-const modifyfood =document.querySelector("#food");
 
 // Step 2: place the values of the favorite foods variable into the HTML file
-modifyfood.textContent= (food[0] + ", " + food[1] + ", and " + food[2]);
+const modifyfood =document.querySelector("#food");
 
 // Step 3: declare and instantiate a variable to hold another favorite food
-
-
+modifyfood.textContent= (food[0] + ", " + food[1] + ", and " + food[2]);
 // Step 4: add the variable holding another favorite food to the favorite food array
-
-
 // Step 5: repeat Step 2
-
-
 // Step 6: remove the first element in the favorite foods array
-
-
 // Step 7: repeat Step 2
-
-
 // Step 8: remove the last element in the favorite foods array
-
-
 // Step 7: repeat Step 2
 
 
