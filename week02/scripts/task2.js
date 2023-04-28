@@ -27,7 +27,7 @@ document.querySelector("img").setAttribute("src", picture)
 /* ARRAYS */
 
 // Step 1: declare and instantiate an array variable to hold your favorite foods
-let basicFoods = ["Pizza", "Noodles", "Cookies", "CottonCandy Grapes", "Water", "Fruits"]
+let basicFoods = ["Iphone", "Pizza", "Noodles", "Cookies", "Cotton Candy Grapes", "Water", "Fruits"]
 
 // Step 2: place the values of the favorite foods variable into the HTML file
 document.querySelector("#food").innerHTML = basicFoods
