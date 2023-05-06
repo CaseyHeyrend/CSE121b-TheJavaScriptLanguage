@@ -49,13 +49,13 @@ divideButton.addEventListener("click", divideNumbers)
 /* BUILT-IN METHODS */
 
 // Step 1: Declare and instantiate a variable of type Date to hold the current date
-let year = document.querySelector("year").value
+const currentDate = new Date();
 // Step 2: Declare a variable to hold the current year
 let currentYear;
 // Step 3: Using the variable declared in Step 1, call the built-in getFullYear() method/function and assign it to the variable declared in Step 2
 currentYear = currentDate.getFullYear()
 // Step 4: Assign the current year variable to an HTML form element with an ID of year
-document.querySelector("#year"),innerHTML = currentYear;
+document.querySelector("#year").innerHTML = currentYear;
 /* ARRAY METHODS */
 
 // Step 1: Declare and instantiate an array variable to hold the numbers 1 through 25
