@@ -59,7 +59,7 @@ document.querySelector("#year"),innerHTML = currentYear;
 /* ARRAY METHODS */
 
 // Step 1: Declare and instantiate an array variable to hold the numbers 1 through 25
-let sourceArray = Array(25).fill().map((i) => i+1);
+let sourceArray = Array(25).fill().map((el, i) => i+1);
 // Step 2: Assign the value of the array variable to the HTML element with an ID of "array"
 document.querySelector("#array").innerHTML = sourceArray
 // Step 3: Use the filter array method to find all of the odd numbers of the array variable and assign the reult to the HTML element with an ID of "odds" ( hint: % (modulus operartor) )
