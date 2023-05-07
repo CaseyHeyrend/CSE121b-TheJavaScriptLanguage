@@ -7,7 +7,7 @@ let casey = {}
 // Step 2: Inside of the object, add a property named name with a value of your name as a string
 casey.name = "Casey Heyrend"
 // Step 3: Add another property named photo with a value of the image path and name (used in Task 2) as a string
-casey.photo = "/images/CaseyHeyrend.jpeg"
+casey.photo = "./images/CaseyHeyrend.jpeg";
 // Step 4: Add another property named favoriteFoods with a value of an array of your favorite foods as strings ( hint: [] )
 casey.favoriteFoods =["Noodles", "Cookies", "Cotton Candy Grapes"]
 // Step 5: Add another property named hobbies with a value of an array of your hobbies as strings
