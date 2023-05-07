@@ -7,14 +7,13 @@ let casey = {}
 // Step 2: Inside of the object, add a property named name with a value of your name as a string
 casey.name = "Casey Heyrend"
 // Step 3: Add another property named photo with a value of the image path and name (used in Task 2) as a string
-casey.photo = "/images/CaseyHeyrend.jpeg"
+casey.photo = "../images/CaseyHeyrend.jpeg"
 // Step 4: Add another property named favoriteFoods with a value of an array of your favorite foods as strings ( hint: [] )
-casey.favoriteFoods =["Pizza", "Noodles", "Cookies", "Cotton Candy Grapes", "Water", "Fruits"]
+casey.favoriteFoods =["Noodles", "Cookies", "Cotton Candy Grapes"]
 // Step 5: Add another property named hobbies with a value of an array of your hobbies as strings
-casey.hobbies =  ["Playing the Video Games(Switch)", "The Internet", "Daydream"]
+casey.hobbies =  ["Video_Games(Switch)", "The_Internet", "Daydream"]
 // Step 6: Add another property named placesLived with a value of an empty array
 casey.placesLived = []
-var places = ["Soda Springs", "Montpelier", "Rigby"]
 // Step 7: Inside of the empty array above, add a new object with two properties: place and length and values of an empty string
 casey.placesLived.push({place: '', length: ''})
 // Step 8: For each property, add appropriate values as strings
@@ -26,7 +25,7 @@ casey.placesLived.push({place: '', length: ''})
 casey.placesLived[1].place = 'Montpelier, Idaho'
 casey.placesLived[1].length = 2
 casey.placesLived[2].place = 'Rigby, Idaho'
-casey.placesLived[2].length = 2
+casey.placesLived[2].length = 3
 /* OUTPUT */
 
 // Step 1: Assign the value of the name property (of the object declared above) to the HTML <span> element with an ID of name
