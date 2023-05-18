@@ -14,11 +14,11 @@ let message
 if (today < 6){
     message = 'Hang in there!'
 }
+
+// Step 6: Using an else statement, set the message variable to 'Woohoo!  It is the weekend!'
 else {
     message = 'Woohoo! It is the weekend!'
 }
-// Step 6: Using an else statement, set the message variable to 'Woohoo!  It is the weekend!'
-
 /* SWITCH, CASE, BREAK */
 
 // Step 1: Declare a new variable to hold another message
