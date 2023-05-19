@@ -1,0 +1,4 @@
+A tip/sales tax calculator, but the main focus is on the tip calculator, then the sales tax.
+The tip calculator will add the tip to the bill amount, and if there are other people to pay that amount for the tip.
+
+I think the element used for this is DOM events for the buttons, Some functions of some math and I guess fetching from the Math API.
