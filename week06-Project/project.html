@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="/styles/project.css">
 </head>
 <body>
-    
+    <div class="calculator">
+        <h1 class="calculator__title">Tip Calculator</h1>
+        <div class="field">
+            <label for="amount" class="field__label">Amount</label>
+            <input type="text" name="amount" id="amount" placeholder="$" class="field__input">
+            </input>
+        </div>
+        <div class="field">
+            <label for="tip" class="field__label">Tip</label>
+            <select name="tip" id="tip" class="field__input">
+                <option value="0" selected>No tip 🥲</option>
+                <option value="10">10% 😒</option>
+                <option value="15">15% 🙂</option>
+                <option value="20">20% 🥺</option>
+            </select>
+        </div>
+        <div class="field">
+            <label for="people" class="field__label">People</label>
+            <input type="number" value="1" min="1" step="1" id="people" class="field__input">
+        </div>
+        <button id="calculate">Calculate</button>
+        <div class="info">
+            <p class="info__tip"></p>
+            <p class="info__total"></p>
+        </div>
+    </div>
+    <footer>
+        &copy;<span id="year"></span> | Project | Lesson 6
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/project.js"></script> 
 </body>
 </html>
