@@ -1,0 +1,134 @@
+/* HTML Selectors */
+body {
+    font-family: 'Kalam', cursive;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+    background-color: #252422;
+}
+
+.calculator {
+	background-color: #fffcf2;
+	padding: 2rem;
+	border-radius: 22px;
+	margin: 4rem 0;
+	width: 400px;
+
+	&__title {
+		color: #eb5e28;
+		margin: 0 0 1rem 0;
+	}
+}
+
+.field {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+
+	&__label {
+		flex: 0 0 20%;
+		cursor: pointer;
+		font-size: 1.1rem;
+	}
+
+	&__input {
+		flex: 1;
+		padding: 0.4rem;
+		font-size: 1.1rem;
+	}
+}
+
+#calculate {
+	background-color: #403d39;
+	color: white;
+	border: none;
+	padding: 1rem 1.4rem;
+	font-size: 1.1rem;
+	float: right;
+}
+
+.info {
+	clear: both;
+	display: none;
+	font-size: 1.4rem;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    min-width: 120px;
+    text-align: right;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:first-child {
+    display: block;
+}
+
+nav ul li {
+    display: none;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #efefef;
+    color: black;
+}
+
+/* Class Selectors */
+.active {
+    background-color: white;
+    color: black;
+}
+
+.open li {
+    display: block;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 32.5em) {
+    nav ul {
+        flex-direction: row;
+    }
+    
+    nav ul li:first-child {
+        display: none;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+}
