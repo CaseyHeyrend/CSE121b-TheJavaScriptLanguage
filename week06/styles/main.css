@@ -1,7 +1,35 @@
 /* HTML Selectors */
 body {
     font-family: 'Kalam', cursive;
+    background-color:#87CEEB; /* SkyBlue */
+}
+#container {
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box; /* ignore padding for the box */
+    box-shadow: 15px 15px 15px -8px #000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-align: center;
     background-color:#F0FFFF; /* Azure */
+}
+
+h1 {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #ddd;
+    
+}
+form {
+    text-align: left;
+    
+}
+form label {
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
 }
 
 div {
@@ -21,11 +49,7 @@ header {
     text-align: center;
 }
 
-label {
-    display: inline-block;
-    min-width: 120px;
-    text-align: right;
-}
+
 
 nav {
     background-color: black;
