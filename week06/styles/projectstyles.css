@@ -1,5 +1,4 @@
 body {
-    background: #333 url(http://www.furnishburnish.com/wp-content/uploads/2013/03/basic-kitchen-utensils2.jpg) center center no-repeat;
     background-size: cover;
     color: #532827;
 }
@@ -9,7 +8,6 @@ body {
     margin: 40px auto 0;
     padding: 50px;
     box-sizing: border-box; /* ignore padding for the box */
-    background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdQbw1MCBEtpk6JbrnVnG4B2CDVPFmIzdXhU6OHuCJAdeRQwQu) top left repeat;
     box-shadow: 15px 15px 15px -8px #000;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
