@@ -9,14 +9,14 @@ body {
 }
 
 .calculator {
-    background-color: #FAF0E6;
+    background-color: #B0E0E6;
     padding: 2rem;
     border-radius: 22px;
     margin: 4rem 0;
     width: 400px;
 
     &__title {
-        color: #B0E0E6;
+        color: #000000;
 		margin: 0 0 1rem 0;
     }
 }
@@ -39,8 +39,8 @@ body {
 }
 
 #calculate {
-    background-color: #403d39;
-	color: white;
+    background-color: #7FFFD4;
+	color: black;
 	border: none;
 	padding: 1rem 1.4rem;
 	font-size: 1.1rem;
